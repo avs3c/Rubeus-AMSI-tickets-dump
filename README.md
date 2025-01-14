@@ -5,7 +5,7 @@ This project attempts to utilize the stealthiest option to target Kerberos ticke
 base64 and caesar cipher are used in order to decrypt and run the scripts on the fly.
 
 1. Compile Rubeus and get the executable (preferably a x64 version). Instructions: https://github.com/GhostPack/Rubeus?tab=readme-ov-file#compile-instructions
-2. Encrypt Rubeus and the AMSI CLR bypass. Set the Rubeus executable name ($RPath) and bypass name ($CPath) in encode_files.ps1.  
+2. Encode Rubeus and the AMSI CLR bypass. Set the Rubeus executable name ($RPath) and bypass name ($CPath) in encode_files.ps1.  
     Then in a powershell session:  
     <code>Set-ExecutionPolicy Bypass -Scope Process  
     .\encode_files.ps1</code>  
